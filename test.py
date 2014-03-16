@@ -1,9 +1,9 @@
-import time
+from time import gmtime,strftime
 
 class Time:
     def currentTime(self):
         print " Current Time is "
-        print time.now()
+        print strftime("%Y-%m-%d %H:%M:%S",gmtime())
 
 
 
