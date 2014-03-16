@@ -1,7 +1,7 @@
 import time
 
 class Time:
-    def currentTime():
+    def currentTime(self):
         print " Current Time is "
         print time.now()
 
