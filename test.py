@@ -7,7 +7,7 @@ class Time:
 
 
 
-if __name__='__main__':
+if __name__=='__main__':
     TimeObj=Time()
     print " Calling time function "
     TimeObj.currentTime()
